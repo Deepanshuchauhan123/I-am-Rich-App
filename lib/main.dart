@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("I Am Rich"),
+          backgroundColor: Colors.blueGrey,
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage("lib/Images/Hummingbird_by_Shu_Le.jpg"),
+            height: 300,
+            width: 300,
+          ),
+        ),
+        backgroundColor: Colors.lightGreen[50],
+      ),
+    ),
+  );
+}
